@@ -1,6 +1,7 @@
+import MainPage from "./MainPage"
 
 function App() {
-  return <>hellow world</>
+  return <MainPage/>
 }
 
 export default App
