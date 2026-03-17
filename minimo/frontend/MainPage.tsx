@@ -20,7 +20,7 @@ function MainPageContent () {
     return (
         <div>
             <h1>{!loggedIn ? "Welcome to Minimo Traveller!" : `Welcome back to Minimo ${userName}!`}</h1>
-            <button onClick={()=>{setLoggedIn(true)}}> Log In! </button>
+            <button onClick={()=>{setLoggedIn(!loggedIn)}}> Log In! </button>
         </div>
     )
 }
